@@ -1,6 +1,6 @@
-# **5G Testbed Setup Using USRPs, srsRAN, and srsUE**
+# **5G Testbed Setup Using USRPs, OCUDU, and srsUE**
 
-This repository provides detailed instructions to set up a 5G testbed using two USRP X310 devices, leveraging the srsRAN stack for the gNB, 5G core, and srsUE.
+This repository provides detailed instructions to set up a 5G testbed using two USRP X310 devices, leveraging the OCUDU stack for the gNB, 5G core, and srsUE.
 
 ---
 
@@ -87,7 +87,7 @@ This repository provides detailed instructions to set up a 5G testbed using two 
 
 ## **Code**
 
-This repository includes the config files for srsUE and gNB. It also includes a patch provided to us by the srsRAN team to make this setup work with USRP x310s. Add this patch in the srsRAN_4G folder and run.
+This repository includes the config files for srsUE and gNB. It also includes a patch provided to us by the OCUDU team to make this setup work with USRP x310s. Add this patch in the srsRAN_4G folder and run.
 
 ```bash
 git apply fix_prach.patch
